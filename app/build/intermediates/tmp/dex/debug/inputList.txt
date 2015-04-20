@@ -1,0 +1,5 @@
+/Users/student/Downloads/Converter/app/build/intermediates/classes/debug
+/Users/student/Downloads/Converter/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-31478ab272f163de77cf2c164ce74edfe0c01bcd.jar
+/Users/student/Downloads/Converter/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-27f3727bf3362b739e6163cad570fd0a02ffc4fc.jar
+/Users/student/Downloads/Converter/app/build/intermediates/pre-dexed/debug/classes-f2d086854f7ed2acc40375dc0c9fefba46a21354.jar
+/Users/student/Downloads/Converter/app/build/intermediates/pre-dexed/debug/classes-aabbe6089e2349a687216fab27208dda3c42f89b.jar

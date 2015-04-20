@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#b6454534">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Binary Conversion"
+        android:id="@+id/btBinary"
+        android:onClick="buttonClicked"
+        android:background="#fffff2d4"
+        android:layout_above="@+id/btAdd"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/btReset"
+        android:onClick="buttonClicked"
+        android:background="#63292827"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="46dp"
+        android:layout_alignStart="@+id/btShow"
+        android:layout_alignEnd="@+id/btShow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length Conversion"
+        android:id="@+id/btAdd"
+        android:onClick="buttonClicked"
+        android:background="#ff52b4ff"
+        android:layout_above="@+id/btForce"
+        android:layout_alignStart="@+id/btBinary"
+        android:layout_alignEnd="@+id/btBinary" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Force Conversion"
+        android:id="@+id/btForce"
+        android:onClick="buttonClicked"
+        android:layout_above="@+id/btShow"
+        android:background="#ffffdd56"
+        android:layout_alignStart="@+id/btAdd"
+        android:layout_alignEnd="@+id/btAdd" />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="History"
+    android:id="@+id/btShow"
+    android:onClick="buttonClicked"
+        android:background="#ffffa133"
+        android:layout_above="@+id/btReset"
+        android:layout_alignStart="@+id/btForce"
+        android:layout_alignEnd="@+id/btForce" />
+
+
+
+    <ImageView
+        android:src="@drawable/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+
+        android:src="@drawable/exchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="buttonClicked" />
+
+
+</RelativeLayout>
